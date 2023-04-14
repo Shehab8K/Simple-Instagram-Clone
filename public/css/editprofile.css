@@ -1,0 +1,79 @@
+body
+{
+    background-color: #fafafa;
+}
+.editcontainer
+{
+    margin: 80px auto;
+    background-color: white;
+    width: 60%;
+}
+.pwdMoveLeft
+{
+    margin-left: 1em;
+}
+.special
+{
+    text-decoration: none;
+    color: black;
+    padding: 1em 0;
+}
+.selected
+{
+    border-top: 2px solid black;
+}
+.changeImg
+{
+    padding: 0 10em;
+}
+.topOptions
+{
+    width: 20em;
+    margin: 0 auto;
+    padding: 2em;
+}
+.editPP
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.rightContent
+{
+    float: left;
+}
+.leftContent
+{
+    float: left;
+    margin-left: 1em;
+}
+.restContent
+{
+    padding: 1em 10em 1em;
+}
+.form
+{
+    clear: both;
+    text-align: right;
+    padding-right: 10em;
+    padding-top: 2em;
+}
+.form label
+{
+    margin-right: 2em;
+}
+.genderleft
+{
+    padding-right: 7em;
+}
+.moverightbutton
+{
+    clear: both;
+    margin: 1.5em 0em;
+    padding-right: 7em;
+}
+.close
+{
+    margin-right: 35em;
+    margin-bottom: -0.5em;
+}

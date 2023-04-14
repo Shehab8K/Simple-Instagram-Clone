@@ -1,0 +1,21 @@
+.authors
+{
+    clear: both;
+    width: 20em;
+    position: absolute;
+    bottom: 5%;
+    left: 40vw;
+}
+.authors h5
+{
+    text-align: center;
+}
+.authors ul li
+{
+    list-style-type: none;
+    float: left;
+}
+.specialnames
+{
+    margin-left: 1em;
+}

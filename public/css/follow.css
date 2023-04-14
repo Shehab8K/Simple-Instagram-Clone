@@ -1,0 +1,36 @@
+.followContainer
+{
+    background-color: white;
+    width: 22em;
+    height: auto;
+    margin: 5em auto;
+}
+.usernamef, .userfavatar
+{
+    float: left;
+    
+}
+.userfavatar
+{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+.usernamef
+{
+    margin-left: 1em;
+}
+.followuser
+{
+    float: right;    
+}
+.titlef
+{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.listedf li
+{
+    list-style-type: none;
+    padding-bottom: 3em;
+}

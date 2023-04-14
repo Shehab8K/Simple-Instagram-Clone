@@ -1,0 +1,151 @@
+.editcontainer22
+{
+    margin: 80px auto;
+    background-color: white !important;
+    width: 60%;
+    min-height: 550px;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.postImg
+{
+    width: 550px;
+    height: 550px;
+}
+.postownerPP, .commentownerPP
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.editbutton
+{
+    border: none;
+    background-color: white;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.leftcontent
+{
+    float: left;
+}
+.rightcontent
+{
+    width: 350px;
+    float: left;
+}
+.clearfloat
+{
+    clear: both;
+}
+.postwriter, .commentwriter
+{
+    margin-left: 1em;
+}
+.postowner
+{
+    padding: 1em 2em;
+}
+.postcaption
+{
+    margin-left: 2em;
+}
+.postcomments
+{
+    margin-left: 2em;
+}
+.comment
+{
+    margin-left: 0.5em;
+}
+.commentdate
+{
+    color: grey;
+    font-size: 12px;
+}
+.likes{
+    clear: both;
+    margin-top: 2em;
+    margin-left: 1.2em;
+}
+.postdate{
+    margin-left: 1.2em;
+    color: grey;
+    font-size: 12px;
+}
+.mybtn{
+   color: #0d6efd;
+   border: none;
+   background-color: white;
+   margin-left: -2.5em;
+   position: absolute;
+}
+.myinputcomment{
+    width: 360px;
+}
+.scrolled
+{
+    max-height: 350px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(155, 154, 154);
+  }
+
+  .tagform
+  {
+      float: left;
+  }
+  .tagbutton
+  {
+      border: none;
+      background-color: white;
+      color: blue;
+      text-decoration: underline;
+      margin-right: 0.5em;
+      margin-bottom: 1em;
+  }
+  .comment-wrapper{
+    width: 100%;
+    height: 50px;
+    border-radius: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-wrapper .icon{
+    height: 30px;
+}
+
+.comment-box{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.comment-btn{
+    width: 70px;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #0095f6;
+}
+#saveform, #likeform
+{
+    float: left;
+}

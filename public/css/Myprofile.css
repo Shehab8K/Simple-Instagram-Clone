@@ -1,0 +1,76 @@
+body
+{
+    background-color: #fafafa;
+}
+.userContainer
+{
+   padding: 0 15%;
+   margin-top: 50px;
+}
+.userImgView
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+.leftContent
+{
+    float: left;
+    margin: 2em 2.5em 4em 6em;
+}
+.profile-info
+{
+    float: left;
+    margin: 2em 2.5em 4em 4em;
+}
+.username
+{
+    font-size: 22px !important;
+    font-weight: bold;
+    color: #262626;
+    margin-right: 1em;
+}
+.p2 , .p3
+{
+    margin-left: 1em;
+}
+.second-line , .third-line
+{
+    margin-top: 1em;
+}
+.nofloat
+{
+    clear: both;
+}
+.GallaryImg
+{
+    width: 250px;
+    height: 250px;
+    margin-top: 1em;
+}
+.gallery
+{
+    width: 90%;
+    margin: 2em 2.5em 0em 4em;
+}
+.col
+{
+    z-index: -100;
+}
+.postType
+{
+    width: 12em;
+    margin: 1em auto;
+}
+.special , .special2
+{
+    color: black;
+    text-decoration: none;
+    background-color: #fafafa;
+    border: none;
+}
+.special2
+{
+    margin-left: 1.5em;
+}

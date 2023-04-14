@@ -1,64 +1,79 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Instagram-Clone
+Welcome to my simple Instagram clone
+## 💻 Technologies
+- HTML5
+- CSS
+- Bootstrap 5.3
+- JavaScript
+- PHP
+- Laravel
+- Font Awesome
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 🎥 [Watch Website Demo Video](https://github.com/Shehab8K/ITIOS/tree/main/projects/Javascript#demo)
+## ⭐ Features
+<h3>👨🏻‍💼 User</h3>
 
-## About Laravel
+- Signup (phone /email/Full Name/username/Password)
+- Login(email/password)
+- Forgot Password
+- Profile(avatar/bio/gender/website)
+- User can sign up using email/password, a verification email is sent to the user email to verify his email.
+- User can sign in using email/password, also he can use the forgot password feature to receive an email to reset his password
+- All Emails are sent using Laravel queues.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h3>📃 Edit Profile Page</h3>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- User can edit his profile (phone/email/FullName/avatar/bio/gender/website) and if the user changed the email, he must verify the new email.
+- User can change his password
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h3>👀 Profile view Page</h3>
 
-## Learning Laravel
+- User can see username/avatar/bio/website
+- User can see count of user’s posts/followers/following
+- User can see the user’s followers list
+- User can see the user’s following list
+- User can see published posts which are shown as rows, each row contains
+three posts, clicking on a post image will navigate to the post view page.
+- User can follow/unfollow other users, but can’t apply these actions on his
+profile
+- If user is visiting a profile of one of his followers, the follow button will
+display Follow back
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<h3>👀 My Profile Page</h3>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+In addition to profile view
 
-## Laravel Sponsors
+- User can see a button to edit his profile
+- User can see a tab beside his posts tabs contains the saved posts
+- Clicking any of the user’s posts / saved posts will navigate to the post view page
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<h3>New Post page</h3>
 
-### Premium Partners
+- User can add Posts (image with caption), the caption can contain a tag
+(one or more words preceded by #). Tags can’t contain spaces.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+<h3>Post view page</h3>
 
-## Contributing
+- Post image is displayed with caption
+- Post tags are clickable and will navigate to tag page
+- User can comment / like any post
+- Comments should display owner name and his avatar and time of adding the comment
+- User can add the post to his saved list for later visiting
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<h3>Home Page</h3>
 
-## Code of Conduct
+- User can see latest posts from the profiles he follows along with their likes/comments and he can add like/comment.
+- There is a search box where the user can use it to search for profile using the name or username
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<h3>Tags Page</h3>
 
-## Security Vulnerabilities
+- User can see posts related to the selected tag
+- Posts are shown as rows, each row contain three posts.
+- Clicking a post image will navigate to the post view page.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<i>This project is old and I made it long ago, I will refactor the code and shift it to meet development conventions soon :D</i>
 
-## License
+⭐ [Shehab Hossam](https://github.com/Shehab8K)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## <div id="demo">Demo Video</div> 
+[![Website Demo Video](https://img.youtube.com/vi/tabohIdPqy0/0.jpg)](https://youtu.be/tabohIdPqy0)
